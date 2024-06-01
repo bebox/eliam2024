@@ -2904,7 +2904,7 @@ aFourL = {}
 
 staffOne = \relative c' {
   \time 6/8
-  \tempo 4 = 60
+  %\tempo 4 = 60
   \clef treble 
   \markMoj
   r4. r8 c8 d8 |

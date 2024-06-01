@@ -2699,7 +2699,7 @@ aFourR = {}
 staffOne = \relative c' {
   \key g \major
   \time 4/4
-  \tempo 4 = 50
+  %\tempo 4 = 50
   \clef treble 
   \markMoj
   e8 h'8 h8 a8 h4 fis4 |

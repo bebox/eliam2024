@@ -3671,7 +3671,7 @@ aFourR = {}
 
 staffOne = \relative c' {
   \time 6/8
-  \tempo 4 = 78
+  %\tempo 4 = 78
   \clef treble 
   \markMoj
   r4 c'8 c8 h8 a8 |
@@ -3726,7 +3726,7 @@ harmonyOne = \chordmode  {
   a4.:m a4.:m/g |
   f4. e4.:m |
   d4.:m g4. |
-  c4.:sus4 c4. |
+  c4. c4.:sus4 |
   c2. |
   f4. g4. |
   a4.:m f4. |
@@ -3742,7 +3742,7 @@ harmonyOne = \chordmode  {
   a4.:m a4.:m/g |
   f4. e4.:m |
   d4.:m g4. |
-  c4.:sus4 c4. |
+  c4. c4.:sus4 |
   \bar "|."
 }
 
