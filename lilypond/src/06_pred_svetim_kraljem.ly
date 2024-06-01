@@ -3424,7 +3424,7 @@
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Note
 %% <- /museScore/Score/Staff/Measure/voice/Chord
 %% -> /museScore/Score/Staff/Measure/voice/Chord''
-%% Chord(duration_type='eighth', note_pitch='65', note_tpc='13', dots='')
+%% Chord(duration_type='eighth', note_pitch='67', note_tpc='15', dots='')
 %% -> /museScore/Score/Staff/Measure/voice/Chord/BeamMode' text="mid"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/BeamMode
 %% -> /museScore/Score/Staff/Measure/voice/Chord/durationType' text="eighth"'
@@ -3437,9 +3437,9 @@
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Note''
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch' text="65"'
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch' text="67"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc' text="13"'
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc' text="15"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Note
 %% <- /museScore/Score/Staff/Measure/voice/Chord
@@ -3513,17 +3513,6 @@
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text' text="sta"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Spanner'' attr="{'type': 'Slur'}"
-%% ChordSpanner(type='Slur', next_location_fractions='1/8', prev_location_fractions='', next_location_measures='', prev_location_measures='')
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Spanner/Slur''
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Spanner/Slur
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Spanner/next''
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Spanner/next/location''
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Spanner/next/location/fractions' text="1/8"'
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Spanner/next/location/fractions
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Spanner/next/location
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Spanner/next
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Spanner
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Note''
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Accidental''
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Accidental/subtype' text="accidentalFlat"'
@@ -3541,15 +3530,17 @@
 %% <- /museScore/Score/Staff/Measure/voice/Chord/BeamMode
 %% -> /museScore/Score/Staff/Measure/voice/Chord/durationType' text="16th"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Spanner'' attr="{'type': 'Slur'}"
-%% ChordSpanner(type='Slur', next_location_fractions='', prev_location_fractions='-1/8', next_location_measures='', prev_location_measures='')
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Spanner/prev''
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Spanner/prev/location''
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Spanner/prev/location/fractions' text="-1/8"'
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Spanner/prev/location/fractions
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Spanner/prev/location
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Spanner/prev
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics''
+%% Lyrics(text='ti', syllabic='end', ticks='120', ticks_f='1/16', no='')
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic' text="end"'
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks' text="120"'
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f' text="1/16"'
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text' text="ti"'
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Note''
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner'' attr="{'type': 'Tie'}"
 %% ChordNoteSpanner(type='Tie', next_location_fractions='1/16', prev_location_fractions='', next_location_measures='', prev_location_measures='')
@@ -3572,13 +3563,6 @@
 %% Chord(duration_type='half', note_pitch='67', note_tpc='15', dots='')
 %% -> /museScore/Score/Staff/Measure/voice/Chord/durationType' text="half"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics''
-%% Lyrics(text='ti', syllabic='end', ticks='', ticks_f='', no='')
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic' text="end"'
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text' text="ti"'
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
 %% -> /museScore/Score/Staff/Measure/voice/Chord/StemDirection' text="up"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/StemDirection
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Note''
@@ -6047,7 +6031,7 @@ staffOne = \relative c' {
   r8 es16 es16 ~es16 es8 f16 ~f16 f16 (es16 )f16 ~f8 r16 f16 |
   g16 f16 es16 g16 ~g16 g8. ~g2 |
   r8 es16 es16 ~es16 es8 f16 ~f16 f16 (es16 )f16 ~f8 f16 g16 ~|
-  g16 f8 g16 ~g16 b8 (g16 )~g2 |
+  g16 g8 g16 ~g16 b8 g16 ~g2 |
   r8 es16 es16 ~es16 es8 f16 ~f16 f16 (es16 )f16 ~f8 r8 |
   \set Score.repeatCommands = #'((volta "1.")) g16 fes16 es16 f16 ~f16 es8 f16 ~f16 g8. ~g4 |
   r8 es16 es16 ~es16 es8 f16 ~f16 f16 (es16 )f16 ~f8 f16 g16 ~|
@@ -6110,7 +6094,7 @@ alignerOneZero = \relative {
   r8 c16 c16 r16 c8 c16 r16 c16 r16 c16 r8 r16 c16 |
   c16 c16 c16 c16 r16 c8.( c2) |
   r8 c16 c16 r16 c8 c16 r16 c16 r16 c16 r8 c16 c16 |
-  r16 c8 c16 r16 c8 r16 c2 |
+  r16 c8 c16 r16 c8 c16( c2) |
   r8 c16 c16 r16 c8 c16 r16 c16 r16 c16 r8 r8 |
   c16 c16 c16 c16 r16 c8 c16 r16 c8.( c4) |
   r8 c16 c16 r16 c8 c16 r16 c16 r16 c16 r8 c16 c16 |
@@ -6121,7 +6105,8 @@ alignerOneZero = \relative {
 }
 
 lyricOneZero = \lyricmode {
-  "1. Je" -- dno je %|
+  \set stanza = "1."
+  Je -- dno je %|
   i -- me da -- no %|
   svim je -- dan je %|
   vje -- čni Bo -- žji %|
@@ -6141,7 +6126,7 @@ lyricOneZero = \lyricmode {
   Ja do -- bro zna -- dem moj iz -- %|
   ba -- vi -- telj ži -- vi __ %|
   i po -- slje -- dnji će On nad ze -- %|
-  mljom u -- sta -- ti %|
+  mljom u -- sta -- ti __ %|
   a kad se pro -- bu -- dim %|
   k se -- bi će me di -- ći __ %|
   u tije -- lu svo -- me tad ću Bo -- %|
@@ -6183,7 +6168,8 @@ alignerOneOne = \relative {
 }
 
 lyricOneOne = \lyricmode {
-  "2. Je" -- dan je %|
+  \set stanza = "2."
+  Je -- dan je %|
   vje -- ran, pra -- ve -- %|
   dni je -- dan za %|
   sve žr -- tvo -- va -- %|
