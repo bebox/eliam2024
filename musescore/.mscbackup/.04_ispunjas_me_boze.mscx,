@@ -1374,6 +1374,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>15</root>
+            <base>19</base>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -1398,10 +1402,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <root>15</root>
-            <base>19</base>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
