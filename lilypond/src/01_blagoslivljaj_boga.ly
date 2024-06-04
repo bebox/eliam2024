@@ -1,9 +1,10 @@
 \version "2.24.3"
 \include "deutsch.ly"
 jazzChords = { \semiGermanChords }
-aFourL = {}
+aFourR = {}
 \include "include.ily"
 %markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
+\pointAndClickOff
 
 \layout {
   indent = 0
@@ -36,39 +37,39 @@ staffOne = \relative c' {
   g8 f2. r8 |
   a4 b4 a4 (g8 )f8 ~|
   f1 |
-  r4 a8 b8 c4 b8 a8 ~|
+  r4 a8 b8 c4 b8 a8 ~| %\break
   a8 g4 f4 r8 f8 e8 |
   d4 f4 f4 g8 g8 ~|
   g1 |
   r4 a8 g8 a4 g8 g8 ~|
   g8 f2. r8 |
-  a4 b4 a4 (g8 )f8 ~|
+  a4 b4 a4 (g8 )f8 ~| %\break
   f1 |
   r4 a8 (b8 )c4 b8 a8 ~|
   a8 g4 f4 r8 f8 e8 |
   d4 f4 f4 e8 f8 ~|
   f1 \bar "||" | \break
   \markMoj
-  r4 b8 b8 b8 a4 g8 ~|
+  r4 b8 b8 b8 a4 g8 ~| %\break
   g2 r4 c,4 |
   a'4 b4 a4 g4 |
   f2 r2 |
   r4 b8 b8 b4 a8 g8 ~|
   g2 r4 c,4 |
   a'4 b4 a4 g4 |
-  f2 r2 |
+  f2 r2 |% \break
   r4 g4 g4 f8 f8 ~|
   f8 e4 e8 ~e2 |
   a2 g4. g8 ~|
   g8 f4. r2 |
   g4 g4 g4 f8 f8 ~|
-  f8 e4. r4 c4 |
+  f8 e4. r4 c4 |% \break
   a'4 (g4 )g4 (f8 )f8 ~|
   f2 r2 |
   g4 g4 g4 f8 f8 ~|
   f8 e4. r2 |
   a2 (g4. )f8 ~|
-  f2 r4 r8 c8 |
+  f2 r4 r8 c8 | %\break
   g'4 g4 g4 g8 g8 ~|
   g8 g4. a4 b4 |
   g1 ~|
@@ -156,8 +157,8 @@ alignerOneZero = \relative {
   r8 c4. r2 |
   c2 r4. c8( |
   c2) r4 r8 c8 |
-  c4 c4 c4 c8 c8( |
-  c8) c4. c4 c4 |
+  c4 c4 c4 c8 c8 |
+  r8 c4. c4 c4 |
   c1( |
   c2) r2 |
 }
@@ -199,7 +200,7 @@ lyricOneZero = \lyricmode {
   nja %|
   do -- brim, __ %|
   ko %|
-  or -- lu ti se mla __ %|
+  or -- lu ti se mla -- %|
   dost ob -- na -- %|
   vlja. __ %|
   %|
