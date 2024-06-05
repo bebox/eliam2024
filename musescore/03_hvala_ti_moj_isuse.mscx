@@ -16,27 +16,7 @@
       <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
-      <chordSymbolAFontSize>10</chordSymbolAFontSize>
-      <chordSymbolBFontSize>10</chordSymbolBFontSize>
-      <nashvilleNumberFontSize>10</nashvilleNumberFontSize>
-      <tupletFontSize>10</tupletFontSize>
-      <fingeringFontSize>10</fingeringFontSize>
-      <lhGuitarFingeringFontSize>10</lhGuitarFingeringFontSize>
-      <rhGuitarFingeringFontSize>10</rhGuitarFingeringFontSize>
-      <stringNumberFontSize>10</stringNumberFontSize>
-      <partInstrumentFontSize>10</partInstrumentFontSize>
-      <dynamicsFontSize>10</dynamicsFontSize>
-      <tempoFontSize>10</tempoFontSize>
-      <metronomeFontSize>10</metronomeFontSize>
-      <measureNumberFontSize>10</measureNumberFontSize>
-      <mmRestRangeFontSize>10</mmRestRangeFontSize>
-      <rehearsalMarkFontSize>10</rehearsalMarkFontSize>
-      <repeatLeftFontSize>10</repeatLeftFontSize>
-      <repeatRightFontSize>10</repeatRightFontSize>
-      <glissandoFontSize>10</glissandoFontSize>
-      <bendFontSize>10</bendFontSize>
-      <headerFontSize>10</headerFontSize>
-      <footerFontSize>10</footerFontSize>
+      <enableVerticalSpread>1</enableVerticalSpread>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -113,12 +93,14 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="Soprano">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
         <Channel name="Alto">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
@@ -136,7 +118,7 @@
         <Text>
           <style>Title</style>
           <offset x="0" y="-0.00874889"/>
-          <text><font size="22"/>Hvala ti, moj Isuse</text>
+          <text><font size="22"></font>Hvala ti, moj Isuse</text>
           </Text>
         <Text>
           <style>Composer</style>
@@ -144,8 +126,12 @@
           <offset x="0" y="17.489"/>
           <text>Andrea Gelemanović</text>
           </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>Eliam 2024</text>
+          </Text>
         </VBox>
-      <Measure>
+      <Measure len="2/8">
         <voice>
           <Clef>
             <concertClefType>G</concertClefType>
@@ -155,16 +141,9 @@
             <sigN>6</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <StaffText>
+          <RehearsalMark>
             <text>A</text>
-            </StaffText>
-          <Rest>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
+            </RehearsalMark>
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>
@@ -540,9 +519,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <root>13</root>
@@ -959,6 +935,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -968,16 +947,13 @@
         </Measure>
       <Measure>
         <startRepeat/>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
-          <StaffText>
-            <text>B</text>
-            </StaffText>
           <Harmony>
             <root>14</root>
             </Harmony>
+          <RehearsalMark>
+            <text>B?markMojPonn</text>
+            </RehearsalMark>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -1447,9 +1423,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
