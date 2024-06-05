@@ -269,7 +269,7 @@ A</longName>
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
-              <text>ga</text>
+              <text>ga,</text>
               </Lyrics>
             <Note>
               <pitch>72</pitch>
@@ -563,7 +563,7 @@ A</longName>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <text>vje</text>
+              <text>vije</text>
               </Lyrics>
             <Note>
               <pitch>62</pitch>
@@ -841,7 +841,7 @@ A</longName>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <text>vje</text>
+              <text>vije</text>
               </Lyrics>
             <Note>
               <pitch>62</pitch>
@@ -1067,6 +1067,9 @@ A</longName>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <root>17</root>
@@ -1275,7 +1278,7 @@ A</longName>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>že</text>
+              <text>že,</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -1297,7 +1300,7 @@ A</longName>
             <dots>1</dots>
             <durationType>half</durationType>
             <Lyrics>
-              <text>I</text>
+              <text>i</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -1472,8 +1475,8 @@ A</longName>
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <ticks_f>0/8</ticks_f>
-              <text>ji</text>
+              <ticks_f>0/4</ticks_f>
+              <text>ji;</text>
               </Lyrics>
             <Note>
               <pitch>69</pitch>
@@ -1568,7 +1571,7 @@ A</longName>
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks_f>0/4</ticks_f>
-              <text>ji</text>
+              <text>ji!</text>
               </Lyrics>
             <Note>
               <pitch>62</pitch>
@@ -1586,6 +1589,9 @@ A</longName>
             <root>16</root>
             <name>m</name>
             </Harmony>
+          <RehearsalMark>
+            <text>D</text>
+            </RehearsalMark>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -1709,7 +1715,7 @@ A</longName>
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
-              <text>ga</text>
+              <text>ga,</text>
               </Lyrics>
             <Note>
               <pitch>72</pitch>
@@ -1860,7 +1866,7 @@ A</longName>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>šnji;</text>
+              <text>šnji!</text>
               </Lyrics>
             <Note>
               <pitch>62</pitch>

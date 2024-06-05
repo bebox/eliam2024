@@ -147,12 +147,6 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Tempo>
-            <tempo>0.83333333333333337</tempo>
-            <followText>1</followText>
-            <size>10</size>
-            <text><font size="12"></font><b>Largo</b></text>
-            </Tempo>
           <Harmony>
             <root>18</root>
             <name>m</name>
@@ -160,6 +154,12 @@
           <RehearsalMark>
             <text>A</text>
             </RehearsalMark>
+          <Tempo>
+            <tempo>0.83333333333333337</tempo>
+            <followText>1</followText>
+            <size>10</size>
+            <text><font size="12"></font><b>Largo</b></text>
+            </Tempo>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>

@@ -519,7 +519,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>ni</text>
+              <text>ni,</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1278,7 +1278,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <text>puš</text>
+              <text>pu</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1293,7 +1293,7 @@
               <syllabic>end</syllabic>
               <ticks>240</ticks>
               <ticks_f>1/8</ticks_f>
-              <text>ta</text>
+              <text>šta</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1385,6 +1385,15 @@
               <syllabic>begin</syllabic>
               <text>tvo</text>
               </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>69</pitch>
@@ -1393,6 +1402,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>67</pitch>

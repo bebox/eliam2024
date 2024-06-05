@@ -276,6 +276,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <ticks_f>0/8</ticks_f>
               <text>no</text>
               </Lyrics>
             <Lyrics>
@@ -299,12 +300,12 @@
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
-              <text>svim</text>
+              <text>svim',</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>end</syllabic>
-              <text>dni</text>
+              <text>dni,</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>
@@ -435,6 +436,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <ticks_f>0/8</ticks_f>
               <text>žji</text>
               </Lyrics>
             <Lyrics>
@@ -458,12 +460,12 @@
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
-              <text>sin</text>
+              <text>sin,</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>end</syllabic>
-              <text>ni</text>
+              <text>ni,</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>
@@ -615,12 +617,12 @@
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>va</text>
+              <text>va,</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>end</syllabic>
-              <text>o</text>
+              <text>o,</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1115,12 +1117,12 @@
             <durationType>16th</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>sti</text>
+              <text>sti,</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>end</syllabic>
-              <text>ti</text>
+              <text>ti,</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -1386,11 +1388,13 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <ticks_f>0/4</ticks_f>
               <text>lja</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>end</syllabic>
+              <ticks_f>0/4</ticks_f>
               <text>lju</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1499,6 +1503,9 @@
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -1625,7 +1632,7 @@
             <durationType>16th</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>dem</text>
+              <text>dem,</text>
               </Lyrics>
             <Spanner type="Slur">
               <Slur>
@@ -2162,7 +2169,7 @@
               <syllabic>end</syllabic>
               <ticks>120</ticks>
               <ticks_f>1/16</ticks_f>
-              <text>ti</text>
+              <text>ti,</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -2413,8 +2420,18 @@
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>k</text>
+              <syllabic>begin</syllabic>
+              <text>k'se</text>
               </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -2423,10 +2440,13 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <Lyrics>
-              <syllabic>begin</syllabic>
-              <text>se</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -2549,7 +2569,7 @@
               <syllabic>end</syllabic>
               <ticks>360</ticks>
               <ticks_f>3/16</ticks_f>
-              <text>ći</text>
+              <text>ći;</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -2905,7 +2925,7 @@
               <syllabic>end</syllabic>
               <ticks>600</ticks>
               <ticks_f>5/16</ticks_f>
-              <text>ti</text>
+              <text>ti!</text>
               </Lyrics>
             <Spanner type="Slur">
               <Slur>
@@ -3028,8 +3048,18 @@
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>k</text>
+              <syllabic>begin</syllabic>
+              <text>k'se</text>
               </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -3038,10 +3068,13 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <Lyrics>
-              <syllabic>begin</syllabic>
-              <text>se</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -3164,7 +3197,7 @@
               <syllabic>end</syllabic>
               <ticks>360</ticks>
               <ticks_f>3/16</ticks_f>
-              <text>ći</text>
+              <text>ći;</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -3446,7 +3479,7 @@
               <syllabic>end</syllabic>
               <ticks>120</ticks>
               <ticks_f>1/16</ticks_f>
-              <text>ti</text>
+              <text>ti!</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">

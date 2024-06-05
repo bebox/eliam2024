@@ -245,6 +245,7 @@ A</longName>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <ticks_f>0/16</ticks_f>
               <text>stir</text>
               </Lyrics>
             <Note>
@@ -256,7 +257,7 @@ A</longName>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>moj</text>
+              <text>moj:</text>
               </Lyrics>
             <Note>
               <pitch>61</pitch>
@@ -675,7 +676,7 @@ A</longName>
               <syllabic>end</syllabic>
               <ticks>120</ticks>
               <ticks_f>1/16</ticks_f>
-              <text>ra</text>
+              <text>ra.</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -713,7 +714,7 @@ A</longName>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>na</text>
+              <text>Na</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1054,7 +1055,7 @@ A</longName>
               <syllabic>end</syllabic>
               <ticks>360</ticks>
               <ticks_f>3/16</ticks_f>
-              <text>ju</text>
+              <text>ju.</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -1176,7 +1177,7 @@ A</longName>
               <syllabic>end</syllabic>
               <ticks>120</ticks>
               <ticks_f>1/16</ticks_f>
-              <text>ra</text>
+              <text>ra.</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -1221,7 +1222,7 @@ A</longName>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <text>sta</text>
+              <text>Sta</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1480,7 +1481,7 @@ A</longName>
               <syllabic>end</syllabic>
               <ticks>120</ticks>
               <ticks_f>1/16</ticks_f>
-              <text>ga</text>
+              <text>ga.</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -1744,7 +1745,7 @@ A</longName>
               <syllabic>end</syllabic>
               <ticks>600</ticks>
               <ticks_f>5/16</ticks_f>
-              <text>ći</text>
+              <text>ći,</text>
               </Lyrics>
             <Spanner type="Slur">
               <Slur>
@@ -1917,7 +1918,7 @@ A</longName>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>jim</text>
+              <text>jim,</text>
               </Lyrics>
             <Note>
               <pitch>71</pitch>
@@ -2054,7 +2055,7 @@ A</longName>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>tvoj</text>
+              <text>Tvoj</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>

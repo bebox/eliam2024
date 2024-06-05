@@ -4,7 +4,7 @@ jazzChords = { \semiGermanChords }
 aFourR = {}
 \include "include.ily"
 %markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
-\pointAndClickOff
+%\pointAndClickOff
 
 \layout {
   indent = 0
@@ -37,39 +37,39 @@ staffOne = \relative c' {
   g8 f2. r8 |
   a4 b4 a4 (g8 )f8 ~|
   f1 |
-  r4 a8 b8 c4 b8 a8 ~| %\break
+  r4 a8 b8 c4 b8 a8 ~|
   a8 g4 f4 r8 f8 e8 |
   d4 f4 f4 g8 g8 ~|
   g1 |
   r4 a8 g8 a4 g8 g8 ~|
   g8 f2. r8 |
-  a4 b4 a4 (g8 )f8 ~| %\break
+  a4 b4 a4 (g8 )f8 ~|
   f1 |
   r4 a8 (b8 )c4 b8 a8 ~|
   a8 g4 f4 r8 f8 e8 |
   d4 f4 f4 e8 f8 ~|
   f1 \bar "||" | \break
   \markMoj
-  r4 b8 b8 b8 a4 g8 ~| %\break
+  r4 b8 b8 b8 a4 g8 ~|
   g2 r4 c,4 |
-  a'4 b4 a4 g4 |
+  a'4 b4 a4 (g4 )|
   f2 r2 |
   r4 b8 b8 b4 a8 g8 ~|
   g2 r4 c,4 |
   a'4 b4 a4 g4 |
-  f2 r2 |% \break
+  f2 r2 |
   r4 g4 g4 f8 f8 ~|
   f8 e4 e8 ~e2 |
   a2 g4. g8 ~|
   g8 f4. r2 |
   g4 g4 g4 f8 f8 ~|
-  f8 e4. r4 c4 |% \break
+  f8 e4. r4 c4 |
   a'4 (g4 )g4 (f8 )f8 ~|
   f2 r2 |
   g4 g4 g4 f8 f8 ~|
   f8 e4. r2 |
   a2 (g4. )f8 ~|
-  f2 r4 r8 c8 | %\break
+  f2 r4 r8 c8 |
   g'4 g4 g4 g8 g8 ~|
   g8 g4. a4 b4 |
   g1 ~|
@@ -169,7 +169,7 @@ lyricOneZero = \lyricmode {
   du -- šo mo -- ja, __ %|
   %|
   i sve što je u __ %|
-  me -- ni sve -- to %|
+  me -- ni, sve -- to %|
   i -- me nje -- go -- vo! __ %|
   %|
   Bla -- go -- sli -- vljaj Bo -- %|
@@ -180,7 +180,7 @@ lyricOneZero = \lyricmode {
   ra -- vi do -- bro -- %|
   čin -- stva nje -- go -- va. __ %|
   %|
-  On ti ot -- puš -- ta __ %|
+  On ti ot -- pu -- šta __ %|
   sve %|
   grije -- he tvo -- %|
   je. %|

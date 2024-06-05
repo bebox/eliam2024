@@ -123,14 +123,16 @@
           <text><font size="22"></font>Ispunjaš me, Bože</text>
           </Text>
         <Text>
-          <style>Composer</style>
-          <align>right,top</align>
-          <offset x="0" y="17.489"/>
-          <text>Danko Tomanić </text>
-          </Text>
-        <Text>
           <style>Subtitle</style>
           <text>Eliam 2024</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>John Denver</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text>Danko Tomanić</text>
           </Text>
         </VBox>
       <Measure>
@@ -143,11 +145,6 @@
             <sigN>6</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <Tempo>
-            <tempo>1.3</tempo>
-            <followText>1</followText>
-            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 52</b></text>
-            </Tempo>
           <Harmony>
             <root>14</root>
             </Harmony>
@@ -236,7 +233,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>že</text>
+              <text>že,</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
             <Note>
@@ -622,7 +619,7 @@
               <syllabic>end</syllabic>
               <ticks>480</ticks>
               <ticks_f>2/8</ticks_f>
-              <text>ši,</text>
+              <text>ši;</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1221,7 +1218,8 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>že,</text>
+              <ticks_f>0/8</ticks_f>
+              <text>že</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1240,7 +1238,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <text>moj</text>
+              <text>moj,</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1763,7 +1761,8 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Lyrics>
-              <text>s To</text>
+              <syllabic>begin</syllabic>
+              <text>s'to</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1778,6 +1777,7 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Lyrics>
+              <syllabic>end</syllabic>
               <text>bom,</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
