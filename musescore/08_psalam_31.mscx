@@ -117,12 +117,14 @@ A</longName>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="Soprano">
-          <controller ctrl="32" value="17"/>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="0"/>
+          <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
         <Channel name="Alto">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
@@ -140,13 +142,13 @@ A</longName>
         <Text>
           <style>Title</style>
           <offset x="0" y="-0.00874889"/>
-          <text><font size="24"/>Psalam 31</text>
+          <text><font size="24"></font>Psalam 31</text>
           </Text>
         <Text>
           <style>Composer</style>
           <align>right,top</align>
           <offset x="0" y="17.489"/>
-          <text><font size="12"/>Loredana Medan</text>
+          <text><font size="12"></font>Loredana Medan</text>
           </Text>
         <Text>
           <style>Subtitle</style>
@@ -172,7 +174,7 @@ A</longName>
             <name></name>
             </Harmony>
           <RehearsalMark>
-            <text><font size="14"/><b>A</b></text>
+            <text><font size="14"></font><b>A</b></text>
             </RehearsalMark>
           <Harmony>
             <root>14</root>
@@ -239,6 +241,10 @@ A</longName>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>18</root>
+            <name>m</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -257,10 +263,6 @@ A</longName>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <root>18</root>
-            <name>m</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -854,6 +856,10 @@ A</longName>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>18</root>
+            <name>m</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -869,10 +875,6 @@ A</longName>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <root>18</root>
-            <name>m</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -1553,7 +1555,7 @@ A</longName>
             <name>m</name>
             </Harmony>
           <RehearsalMark>
-            <text><font size="14"/><b>B</b></text>
+            <text><font size="14"></font><b>B</b></text>
             </RehearsalMark>
           <Rest>
             <durationType>quarter</durationType>
@@ -2766,7 +2768,7 @@ A</longName>
             <name></name>
             </Harmony>
           <RehearsalMark>
-            <text><font size="14"/><b>C</b></text>
+            <text><font size="14"></font><b>C</b></text>
             </RehearsalMark>
           <Harmony>
             <root>15</root>
