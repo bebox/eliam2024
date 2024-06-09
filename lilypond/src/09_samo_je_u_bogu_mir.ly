@@ -15,7 +15,7 @@ aFourL = {}
   titlex = "Psalam 62"
   composer = "Petra Horvat"
   style = ""
-  broj = "8"
+  broj = "9"
   %tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Izvorno: Name, Album } }
 }
 
