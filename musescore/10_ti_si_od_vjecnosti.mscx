@@ -458,7 +458,7 @@
             </Chord>
           <Harmony>
             <root>18</root>
-            <name>M7</name>
+            <name>mM7</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1019,7 +1019,7 @@
             </Chord>
           <Harmony>
             <root>18</root>
-            <name>M7</name>
+            <name>mM7</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1409,7 +1409,7 @@
             </Chord>
           <Harmony>
             <root>18</root>
-            <name>M7</name>
+            <name>mM7</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1883,7 +1883,7 @@
             </Chord>
           <Harmony>
             <root>18</root>
-            <name>M7</name>
+            <name>mM7</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1950,6 +1950,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <root>18</root>
