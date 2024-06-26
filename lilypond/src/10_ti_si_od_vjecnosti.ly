@@ -117,7 +117,6 @@ alignerOneZero = \relative {
 }
 
 lyricOneZero = \lyricmode {
-  \set stanza = "1."
   \set stanza = "1." U sjaj za -- o -- dje -- ven %|
   Gos -- pod __ kra -- lju -- je. __ %|
   Sna -- gom za -- o -- dje -- ven %|

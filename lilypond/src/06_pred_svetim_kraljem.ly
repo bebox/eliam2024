@@ -130,7 +130,6 @@ alignerOneZero = \relative {
 }
 
 lyricOneZero = \lyricmode {
-  \set stanza = "1."
   \set stanza = "1." Je -- dno je %|
   i -- me da -- no %|
   svim', je -- dan je %|
@@ -193,7 +192,6 @@ alignerOneOne = \relative {
 }
 
 lyricOneOne = \lyricmode {
-  \set stanza = "2."
   \set stanza = "2." Je -- dan je %|
   vje -- ran, pra -- ve -- %|
   dni, je -- dan za %|

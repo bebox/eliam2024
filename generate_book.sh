@@ -11,12 +11,12 @@ POINT_AND_CLICK=--no-point-and-click
 
 eval "$EXEC" $MUSESCORE_PATH/01_blagoslivljaj_boga.mscx    --ly-output $LILYPOND_PATH/01_blagoslivljaj_boga.ly    --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 1 --no-left-page $POINT_AND_CLICK --comment-tempo
 eval "$EXEC" $MUSESCORE_PATH/02_dobro_je_slaviti_boga.mscx --ly-output $LILYPOND_PATH/02_dobro_je_slaviti_boga.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 2 --left-page $POINT_AND_CLICK
-eval "$EXEC" $MUSESCORE_PATH/03_hvala_ti_moj_isuse.mscx --ly-output $LILYPOND_PATH/03_hvala_ti_moj_isuse.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 3 --no-left-page --set-stanza $POINT_AND_CLICK
+eval "$EXEC" $MUSESCORE_PATH/03_hvala_ti_moj_isuse.mscx --ly-output $LILYPOND_PATH/03_hvala_ti_moj_isuse.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 3 --no-left-page $POINT_AND_CLICK
 eval "$EXEC" $MUSESCORE_PATH/04_ispunjas_me_boze.mscx --ly-output $LILYPOND_PATH/04_ispunjas_me_boze.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 4 --left-page $POINT_AND_CLICK
 eval "$EXEC" $MUSESCORE_PATH/05_molitva.mscx --ly-output $LILYPOND_PATH/05_molitva.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 5 --no-left-page $POINT_AND_CLICK
-eval "$EXEC" $MUSESCORE_PATH/06_pred_svetim_kraljem.mscx --ly-output $LILYPOND_PATH/06_pred_svetim_kraljem.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 6 --left-page --set-stanza $POINT_AND_CLICK
+eval "$EXEC" $MUSESCORE_PATH/06_pred_svetim_kraljem.mscx --ly-output $LILYPOND_PATH/06_pred_svetim_kraljem.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 6 --left-page $POINT_AND_CLICK
 eval "$EXEC" $MUSESCORE_PATH/07_psalam_23.mscx --ly-output $LILYPOND_PATH/07_psalam_23.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 7 --left-page $POINT_AND_CLICK
 eval "$EXEC" $MUSESCORE_PATH/08_psalam_31.mscx --ly-output $LILYPOND_PATH/08_psalam_31.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 8 --left-page $POINT_AND_CLICK
-eval "$EXEC" $MUSESCORE_PATH/09_samo_je_u_bogu_mir.mscx --ly-output $LILYPOND_PATH/09_samo_je_u_bogu_mir.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 9 --left-page --set-stanza $POINT_AND_CLICK
-eval "$EXEC" $MUSESCORE_PATH/10_ti_si_od_vjecnosti.mscx --ly-output $LILYPOND_PATH/10_ti_si_od_vjecnosti.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 10 --left-page --set-stanza $POINT_AND_CLICK
+eval "$EXEC" $MUSESCORE_PATH/09_samo_je_u_bogu_mir.mscx --ly-output $LILYPOND_PATH/09_samo_je_u_bogu_mir.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 9 --left-page $POINT_AND_CLICK
+eval "$EXEC" $MUSESCORE_PATH/10_ti_si_od_vjecnosti.mscx --ly-output $LILYPOND_PATH/10_ti_si_od_vjecnosti.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 10 --left-page $POINT_AND_CLICK
 eval "$EXEC" $MUSESCORE_PATH/11_ti_si_moj_mir.mscx --ly-output $LILYPOND_PATH/11_ti_si_moj_mir.ly --lilypond-version $LILYPOND_VERSION --custom-config --ordinal-number 11 --left-page $POINT_AND_CLICK
