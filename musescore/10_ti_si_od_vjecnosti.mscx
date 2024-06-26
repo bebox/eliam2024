@@ -185,7 +185,7 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>U</text>
+              <text>1. U</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
             <Note>
@@ -2777,6 +2777,17 @@
             </BarLine>
           </voice>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>2.
+Nek mi usne pjevaju pjesmu pohvalnu,
+po svojoj Riječi vodi me.
+Riječ tvoju željno čekam, čeznem za tobom
+kad ćeš mi donjet utjehu.</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

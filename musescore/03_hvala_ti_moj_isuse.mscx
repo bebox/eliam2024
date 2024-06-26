@@ -151,12 +151,12 @@
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>Ti</text>
+              <text>1. Ti</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>begin</syllabic>
-              <text>Pro</text>
+              <text>2. Pro</text>
               </Lyrics>
             <Note>
               <pitch>60</pitch>

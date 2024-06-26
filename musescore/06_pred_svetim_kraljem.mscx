@@ -163,12 +163,12 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <text>Je</text>
+              <text>1. Je</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>begin</syllabic>
-              <text>Je</text>
+              <text>2. Je</text>
               </Lyrics>
             <Note>
               <pitch>60</pitch>
@@ -855,7 +855,7 @@
             <name>m</name>
             </Harmony>
           <RehearsalMark>
-            <text>B</text>
+            <text>B?markMojCenter</text>
             </RehearsalMark>
           <Chord>
             <durationType>quarter</durationType>

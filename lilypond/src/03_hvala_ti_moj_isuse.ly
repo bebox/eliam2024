@@ -99,7 +99,7 @@ alignerOneZero = \relative {
 
 lyricOneZero = \lyricmode {
   \set stanza = "1."
-  Ti si %|
+  \set stanza = "1." Ti si %|
   po -- zva -- o ne -- po -- dob -- ne, __ %|
   pro -- na -- %|
   ša -- o si iz -- gu -- blje -- %|
@@ -142,7 +142,7 @@ alignerOneOne = \relative {
 
 lyricOneOne = \lyricmode {
   \set stanza = "2."
-  Pro -- šlost %|
+  \set stanza = "2." Pro -- šlost %|
   mo -- ju si iz -- bri -- sa -- o, __ %|
   svo -- ju %|
   pra -- ved -- nost da -- ro -- va -- %|

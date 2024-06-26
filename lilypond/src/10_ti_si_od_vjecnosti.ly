@@ -118,7 +118,7 @@ alignerOneZero = \relative {
 
 lyricOneZero = \lyricmode {
   \set stanza = "1."
-  U sjaj za -- o -- dje -- ven %|
+  \set stanza = "1." U sjaj za -- o -- dje -- ven %|
   Gos -- pod __ kra -- lju -- je. __ %|
   Sna -- gom za -- o -- dje -- ven %|
   Gos -- pod kra -- lju -- je. __ %|
@@ -161,12 +161,11 @@ lyricOneZero = \lyricmode {
   \column {
     \line { \bold 2. }
   }
-  \hspace #2
-  \vspace #1
+  \hspace #1
   \column {
     \line { Nek mi usne pjevaju pjesmu pohvalnu, }
     \line { po svojoj Riječi vodi me. }
     \line { Riječ tvoju željno čekam, čeznem za tobom }
-    \line { kad ćeš mi donjet uthjehu. }
+    \line { kad ćeš mi donjet utjehu. }
   }
 }

@@ -34,7 +34,7 @@ staffOne = \relative c' {
   \partial 4
   \clef treble
   r8 r16 b16 |
-  \markMoj
+  \markMojCenter
   f'8 b,16 c16 ~c16 b8 c16 ~c16 b8 c16 ~c16 d8. ~|
   d8 b4. r2 |
   f'8 b,16 c16 ~c16 b8 c16 ~c16 b8 c16 ~c16 d8. ~|

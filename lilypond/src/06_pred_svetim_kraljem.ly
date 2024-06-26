@@ -43,7 +43,7 @@ staffOne = \relative c' {
   d2 r8 d8 e8 f8 |
   g4. c,8 f4. e8 |
   d2 r8 g8 a8 h8 \bar "||" |
-  \markMoj
+  \markMojCenter
   c4 h4 a4. g16 g16 |
   r2 r8 g8 a8 h8 |
   c4 h8 h8 a4. g16 g16 |
@@ -131,7 +131,7 @@ alignerOneZero = \relative {
 
 lyricOneZero = \lyricmode {
   \set stanza = "1."
-  Je -- dno je %|
+  \set stanza = "1." Je -- dno je %|
   i -- me da -- no %|
   svim', je -- dan je %|
   vje -- čni Bo -- žji %|
@@ -194,7 +194,7 @@ alignerOneOne = \relative {
 
 lyricOneOne = \lyricmode {
   \set stanza = "2."
-  Je -- dan je %|
+  \set stanza = "2." Je -- dan je %|
   vje -- ran, pra -- ve -- %|
   dni, je -- dan za %|
   sve žr -- tvo -- va -- %|
