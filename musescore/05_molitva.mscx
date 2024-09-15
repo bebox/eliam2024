@@ -403,10 +403,13 @@
               </Lyrics>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>7.21645e-16</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>

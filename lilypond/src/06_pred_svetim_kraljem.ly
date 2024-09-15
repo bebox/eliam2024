@@ -58,10 +58,10 @@ staffOne = \relative c' {
   r8 es16 es16 ~es16 es8 f16 ~f16 f16 (es16 )f16 ~f8 f16 g16 ~|
   g16 g8 g16 ~g16 b8 g16 ~g2 |
   r8 es16 es16 ~es16 es8 f16 ~f16 f16 (es16 )f16 ~f8 r8 |
-  \set Score.repeatCommands = #'((volta "1.")) g16 (fes16 )es16 f16 ~f16 es8 f16 ~f16 g8. ~g4 |
+  \set Score.repeatCommands = #'((volta "1.")) g16 (f16 )es16 f16 ~f16 es8 f16 ~f16 g8. ~g4 |
   r8 es16 es16 ~es16 es8 f16 ~f16 f16 (es16 )f16 ~f8 f16 g16 ~|
   g16 g8 g16 ~g16 c8 c16 (~c8. es16 ~es8 )r8 \bar ":|." |
-  \set Score.repeatCommands = #'((volta #f)) \set Score.repeatCommands = #'((volta "2.")) g,16 (fes16 )es16 f16 ~f16 g8 es16 ~es16 c8. ~c4 |
+  \set Score.repeatCommands = #'((volta #f)) \set Score.repeatCommands = #'((volta "2.")) g,16 (f16 )es16 f16 ~f16 g8 es16 ~es16 c8. ~c4 |
   r8 b'16 b16 ~b16 b8 c16 ~c16 c8 c16 r8. c16 |
   h8 h16 h16 ~h16 d8 d16 ~d2 \set Score.repeatCommands = #'((volta #f)) |
 }

@@ -106,7 +106,7 @@ alignerOneZero = \relative {
 
 lyricOneZero = \lyricmode {
   Ja -- hve je pa -- stir moj: ni u %|
-  čem ne -- o -- sku -- dje -- vam. __ Na %|
+  čem ne o -- sku -- dje -- vam. __ Na %|
   po -- lja -- na -- ma ze -- le -- nim On mi %|
   da -- je od -- mo -- ra. __ Na %|
   vru -- tke me ti -- ha -- ne vo -- %|

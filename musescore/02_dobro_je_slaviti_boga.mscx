@@ -238,9 +238,6 @@ A</longName>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <root>13</root>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -253,6 +250,9 @@ A</longName>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>13</root>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -1684,9 +1684,6 @@ A</longName>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <root>13</root>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -1699,6 +1696,9 @@ A</longName>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>13</root>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>

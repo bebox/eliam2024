@@ -36,7 +36,7 @@ staffOne = \relative c' {
   \markMoj
   e8 h'8 h8 a8 h4 fis4 |
   e8 (h'4 g8 )fis2 |
-  e8 h'8 h8 (a8 )h4 fis4 |
+  e8 h'8 h8 (a8 )h4 a4 |
   h8 (d4 )g,8 fis4. g16 (fis16 )|
   e8 fis8 g8 a8 fis4 d8. d16 |
   e4 d8. d16 e4. e16 fis16 |

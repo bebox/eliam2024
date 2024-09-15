@@ -66,7 +66,7 @@ staffOne = \relative c' {
 
 harmonyOne = \chordmode  {
   d1:m |
-  c4 f2. |
+  c2 f2 |
   g2:m d2:m |
   g2:m a2 |
   g2:m a2 |
@@ -89,7 +89,7 @@ harmonyOne = \chordmode  {
   d1:m |
   a2 d2:m |
   d1:m |
-  c4 f2. |
+  c2 f2 |
   g2:m d2:m |
   g4:m a4 d2:m |
   \bar "|."
